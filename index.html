@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="contenedor">
+        <header class="cabeza">
+            <img id="logo" src="img/Logo-1.png" alt="">
+            <textarea name="entrada" id="entrada" cols="30" rows="10" required placeholder="Ingrese el texto aqui"></textarea>  
+            
+        </header>
+
+        <div class="botones">
+            <p>Solo letras minúsculas y sin acentos</p> 
+            <button id="encriptar"> Encriptar</button>
+            <button id="desencriptar">Desencriptar</button>
+                              
+
+        </div>
+
+        <div class="pies">
+           <section id="cuadro">
+            <img src="img/Muñeco.png" class="img" alt="muñeco">
+            <p class="tex1">Nindún mensaje fue encontrado</p>
+            <p class="tex2">Ingresa el texto que desees encriptar o desencriptar.</p>
+
+           </section>
+           <section id="salida">
+                <textarea name="entrada" id="texsalida" cols="30" rows="10" required placeholder="Salida"></textarea> 
+                <button id="copiar">Copiar</button>
+           </section>     
+                
+
+        </div>
+        <script src="js/add.js"></script>
+</body>
+</html>
