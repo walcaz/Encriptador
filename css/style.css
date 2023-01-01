@@ -208,7 +208,7 @@
     .contenedor{
         display: grid; 
         grid-template-columns: 100%;
-        grid-template-rows: 500px 300px 500px;
+        grid-template-rows: 400px 250px 500px;
         padding: 10px;
          grid-template-areas:
         "cabeza"
