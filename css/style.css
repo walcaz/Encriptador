@@ -35,9 +35,9 @@
 }
 .cabeza textarea{
     position: absolute;
-    left: 30%;
-    top: 20%;
-    width: 50%;
+    left: 15%;
+    top: 25%;
+    width: 80%;
     height: 15%;
     background-color: #F3F5FC;
     color: #0A3871;
@@ -141,6 +141,7 @@
     order: 0;
     align-self: stretch;
     flex-grow: 0;
+
 }
 #cuadro .tex2{
     position: absolute;
